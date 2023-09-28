@@ -1,0 +1,88 @@
+EJERCICIO 1
+print (input('Nombre ')) 
+
+EJERCICIO 2
+print ('Hola, '+input('Nombre ')+' bienvenido a este curso')
+
+EJERCICIO 3
+print(input(' usuario'))
+print(input(' edad'))
+
+EJERCICIO 4
+numero1=int(input())
+numero2=int(input())
+numero3= (numero1+numero2)
+print(numero3)
+
+EJERCICIO 5
+numero1= int(input())
+numero2= int(input())
+print (int(numero1/numero2))
+print (int(numero1%numero2))
+
+EJERCICIO 6
+pi=3.1416
+radio=int(input())
+print(pi*radio**2)
+
+EJERCICIO 7
+base=int(input())
+altura=int(input())
+print (base*altura)
+
+EJERCICIO 8
+pi =3.14159
+radio=int(input())
+print('El diametro de un circulo es ' + str(radio*2))
+print('La circunferencia de un circulo es ' + str(radio*2*pi))
+print('El area de un circulo es ' + str(radio**2*pi))
+
+EJERCICIO 9
+numero1=int(input())
+numero2=int(input())
+print(numero1+numero2)
+print(numero1-numero2)
+print(numero1*numero2)
+print(numero1/numero2)
+
+EJERCICIO 10
+cantidad_dolares =int(input())
+cambio_dolar_euro =cantidad_dolares*0.84
+print(cambio_dolar_euro)
+
+EJERCICIO 11
+palabra=input() 
+print(len(palabra))
+
+EJERCICIO 13
+nombre=input()
+edad=int(input())
+edad_en_10_años = edad+10
+print('Hola, '+nombre+' en 10 años tendrás '+str(edad_en_10_años)+ ' de edad')
+
+EJERCICIO 14
+numero=int(input())
+print(numero*2)
+print(numero*3)
+
+EJERCICIO 15
+temperatura_en_celcius=float(input())
+print(temperatura_en_celcius*1.8+32)
+
+EJERCICIO 16
+peso=float(input())
+altura=float(input())
+print('Tu IMC es '+str((peso/(altura**2))))
+
+EJERCICIO 17
+palabra1=input()
+palabra2=input()
+print(palabra2+" "+palabra1)
+
+EJERCICIO 18
+print('Hola '+input('Nombre ')+', '+input('Edad ')+' años de '+input('Ciudad '))
+
+EJERCICIO 19
+numero=float(input()) 
+print(int(numero)) 
+print((numero-int(numero)))
